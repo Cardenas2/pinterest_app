@@ -1,0 +1,17 @@
+<h3>Editar tu Pin</h3>
+<%= form_with model: @pin do |f| %>
+
+	<div class="form-group">
+		<%= f.text_field :name, placeholder: 'Nombre' %>
+	</div>
+	<div class="form-group">	
+		<%= f.text_field :desc, placeholder: 'Descripción' %>
+	</div>
+	<div class="form_group">
+		<%= f.text_field :photo, placeholder: 'Photo' %>
+	</div>
+	<div class="form-group">
+		<%= f.submit 'Crear', class: 'btn btn-primary' %>
+	</div>
+	
+<% end %>
