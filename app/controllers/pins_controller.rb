@@ -13,7 +13,7 @@ class PinsController < ApplicationController
   end
 
   def like
-  	Like.create(pin: pin, user: current_user)
+  	Like.create(pin: @pin, user: current_user)
   	redirect_to_pins_path
   end
 
