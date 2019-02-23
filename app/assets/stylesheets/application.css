@@ -14,10 +14,19 @@
  *= require_self
  */
 
+body{
+	background-image:url("fondo.png");
+	
+}
 .img-custom{
 	width: 50px;
 }
 
 .img-circle{
 	border-radius: 50%;
+}
+
+.navbar-green{
+	background-color: #ccc;
+	color:#000;
 }
